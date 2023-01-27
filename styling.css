@@ -1,0 +1,171 @@
+
+.container {
+    width:1050px;
+   
+    margin: 0 auto;
+    
+}
+
+#searchbox {
+
+    float: right;
+    background: linear-gradient(green,white);
+    width:400px;
+    height: 50px;
+    padding: 10px 10px 0 10px;
+    margin-top: 20px;
+    
+}
+
+.head {
+    
+}
+
+h1 a{
+  font-size: 50px;
+    font-weight: 100;
+ color: rebeccapurple;
+    text-decoration: none;
+    
+}
+
+#search {
+        background:white url(img/icons8-search-more-32.png) right center no-repeat;
+    float: left;
+    width: 200px;
+    padding: 5px;
+    color:red;
+    font-size: 15px;
+    
+}
+
+#brand {
+    float: left;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0;
+}
+
+#submit {
+    float: right;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    background: purple;
+    
+}
+
+.clear {
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+#menu ul li a{
+    text-decoration: none;
+font-size: 17px;
+    text-transform: uppercase;
+    color: purple;
+    transition:font-size 0.5s ease;
+    
+    
+}
+#menu ul li a:hover,#menu ul li a.active{
+    font-size:20px;
+    font-weight: bold;
+    
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 20px 70px;
+    height: 30px;
+    border-right: 1px solid purple;
+}
+#menu {
+    height: 70px;
+    background: linear-gradient(yellow,white);
+}
+
+#intro {
+    background:linear-gradient(green,white);
+    padding: 30px;
+    margin: 10px 0;
+    
+}
+#intro h3{
+    font-size: 40px;
+    font-weight: normal;
+    
+}
+#intro p{
+    font-size:20px;
+    text-align: justify;
+}
+
+
+.sidebar {
+    height:300px;
+    width: 450px;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 30px;
+    
+    
+    
+}
+
+
+#leftside{
+    float: left;
+
+}
+#leftside ul li{
+        padding-bottom: 10px;
+
+    list-style-image:url(img/icons8-search-more-32.png);
+}
+#rightside ul li{
+padding-bottom:10px;
+        padding-left: 10px;
+    list-style-image: url(img/icons8-search-more-32.png);
+}
+
+#rightside {
+    float: right;
+    
+}
+.sidebar h3{
+color:orange;
+font-size:30px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: mediumpurple;
+    padding: 10px;
+    transition: 0.5s ease;
+    
+}
+.sidebar ul li a:hover{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+.footer {
+    height:60px; 
+        background: linear-gradient(yellow,white);
+    padding: 10px 20px;
+    margin: 10px;
+    
+
+}
+
+
+
+
